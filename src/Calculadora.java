@@ -1,6 +1,6 @@
 public class Calculadora {
 
-    public double soma(double x, double y){
+    public static double soma(double x, double y){
         return x + y;
     }
 
@@ -12,7 +12,7 @@ public class Calculadora {
         return x / y;
     }
 
-    public double multiplicacao(double x, double y){
+    public static double multiplicacao(double x, double y){
         return x * y;
     }
 
@@ -20,7 +20,7 @@ public class Calculadora {
         return Math.pow(x, y);
     }
 
-    public double raizQuadrada(double x){
+    public static double raizQuadrada(double x){
         return Math.sqrt(x);
     }
 
