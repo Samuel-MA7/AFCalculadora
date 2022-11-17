@@ -27,9 +27,6 @@ public class Principal {
         x = perguntax();
         y = perguntay();
 
-
-        System.out.println("A divisao de " + x + " e " + y + " é " + Calculadora.divisao(x, y) + " e o seu resto é " + Resto.resto(x, y));
-        System.out.println("A subtraçao do maior número pelo menor é " + maiormenor.tmm(x, y));
         
         
         Quadrado q = new Quadrado();
