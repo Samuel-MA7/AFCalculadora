@@ -15,7 +15,7 @@ public class Calculadora {
         return x * y;
     }
 
-    public double exponencial(double x, double y){
+    public static double exponencial(double x, double y){
         return Math.pow(x, y);
     }
 
