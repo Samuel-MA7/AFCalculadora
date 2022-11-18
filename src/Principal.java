@@ -53,8 +53,11 @@ public class Principal {
 //        Velocidade v = new Velocidade();
 //        v.velocidadeMedia(200, 0, 60, 0);
 
-        CalculoMedia cm = new CalculoMedia();
-        cm.calcularMedia();
+//        CalculoMedia cm = new CalculoMedia();
+//        cm.calcularMedia();
+
+        CalculoGorjeta cg = new CalculoGorjeta();
+        cg.calcularGorjeta();
 
 
     }
