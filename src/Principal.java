@@ -30,7 +30,7 @@ public class Principal {
         return z;
     }
     
-    public static void main(String[] args) /*throws NumberFormatException, IOException*/ {
+    public static void main(String[] args) throws NumberFormatException, IOException {
         
         x = perguntax();
         y = perguntay();
