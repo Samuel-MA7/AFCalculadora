@@ -9,6 +9,7 @@ public class Principal {
     static double y;
     static double z;
 
+
     public static double perguntax() throws NumberFormatException, IOException{
         double x;
         System.out.println("Digite o valor de X:");
@@ -52,6 +53,15 @@ public class Principal {
         System.out.println();
         Velocidade v = new Velocidade();
         v.velocidadeMedia(200, 0, 60, 0);
+        System.out.println();
+
+        Circunferencia c = new Circunferencia();
+        c.areaCircunferencia();
+        System.out.println();
+
+        Triângulo t = new Triângulo();
+        t.areaTriangulo();
+        System.out.println();
 
         // EXECUÇÃO NO TERMINAL
         // A depender da versão do Java e do SDK, colocar vírgula ao "," de "."
